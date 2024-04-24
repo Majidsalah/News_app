@@ -1,0 +1,4 @@
+#Tue Apr 23 22:00:54 EET 2024
+base.0=C\:\\Users\\maged\\Desktop\\megaapps\\news_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
