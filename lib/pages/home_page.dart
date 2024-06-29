@@ -13,8 +13,8 @@ class Homepage extends StatelessWidget {
           title: const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('News', style: TextStyle(color: Colors.black)),
-              Text('Cloud', style: TextStyle(color: Colors.yellow)),
+              Text(' News', style: TextStyle(color: Colors.black)),
+              Text('Cloud', style: TextStyle(color: Colors.red)),
             ],
           ),
           backgroundColor: Colors.transparent,
@@ -24,7 +24,7 @@ class Homepage extends StatelessWidget {
           children: [
             CategoryBuilder(),
             SizedBox(height: 15),
-            Expanded(child: NewsBuilder()),
+            Expanded(child: NewsBuilder(cate: 'غزة')),
           ],
         ));
   }
